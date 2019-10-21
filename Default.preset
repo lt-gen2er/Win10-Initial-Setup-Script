@@ -40,7 +40,8 @@ SetUACLow                       # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
 # DisableFirewall               # EnableFirewall
-# HideDefenderTrayIcon          # ShowDefenderTrayIcon
+# HideDefenderTrayIcon          # 
+DefenderTrayIcon
 # DisableDefender               # EnableDefender
 # DisableDefenderCloud          # EnableDefenderCloud
 # EnableCtrldFolderAccess       # DisableCtrldFolderAccess
@@ -167,15 +168,15 @@ HideNetworkFromDesktop          # ShowNetworkOnDesktop
 HideBuildNumberFromDesktop      # ShowBuildNumberOnDesktop
 ShowDesktopInThisPC             # HideDesktopFromThisPC
 # HideDesktopFromExplorer       # ShowDesktopInExplorer
-ShowDocumentsFromThisPC         # HideDocumentsInThisPC
+ShowDocumentsInThisPC           # HideDocumentsFromThisPC
 # HideDocumentsFromExplorer     # ShowDocumentsInExplorer
-ShowDownloadsFromThisPC         # HideDownloadsInThisPC
+ShowDownloadsInThisPC           # HideDownloadsFromThisPC
 # HideDownloadsFromExplorer     # ShowDownloadsInExplorer
-ShowMusicFromThisPC             # HideMusicInThisPC
+ShowMusicInThisPC               # HideMusicFromThisPC
 # HideMusicFromExplorer         # ShowMusicInExplorer
-ShowPicturesFromThisPC          # HidePicturesInThisPC
+ShowPicturesInThisPC            # HidePicturesFromThisPC
 # HidePicturesFromExplorer      # ShowPicturesInExplorer
-ShowVideosFromThisPC            # HideVideosInThisPC
+ShowVideosInThisPC              # HideVideosFromThisPC
 # HideVideosFromExplorer        # ShowVideosInExplorer
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 # Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
