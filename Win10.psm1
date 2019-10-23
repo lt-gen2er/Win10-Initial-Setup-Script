@@ -3630,7 +3630,7 @@ Function UnpinTaskbarIcons {
 # Disable Loopback
 Function DisableLoopback{
 	Write-Output "Disabling Loopback..."
-	CheckNetIsolation LoopbackExempt –c
+	CheckNetIsolation LoopbackExempt –c | Out-Null
 }
 
 # Enable Loopback
