@@ -203,7 +203,7 @@ DisableMediaSharing             # EnableMediaSharing
 UninstallMediaPlayer            # InstallMediaPlayer
 UninstallInternetExplorer       # InstallInternetExplorer
 UninstallWorkFolders            # InstallWorkFolders
-# UninstallPowerShellV2         # InstallPowerShellV2
+UninstallPowerShellV2           # InstallPowerShellV2
 UninstallLinuxSubsystem         # InstallLinuxSubsystem
 UninstallHyperV                 # InstallHyperV
 # InstallNET23                  # UninstallNET23
@@ -225,6 +225,9 @@ UninstallFaxAndScan             # InstallFaxAndScan
 ### Unpinning ###
 UnpinStartMenuTiles
 # UnpinTaskbarIcons
+
+### UWP Loopback ###
+EnableLoopback                  # DisableLoopback
 
 ### Auxiliary Functions ###
 WaitForKey
