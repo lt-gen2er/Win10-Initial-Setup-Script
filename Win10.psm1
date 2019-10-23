@@ -1,7 +1,7 @@
 ##########
 # Win 10 / Server 2016 / Server 2019 Initial Setup Script - Tweak library
-# Author: Disassembler <disassembler@dasm.cz>
-# Version: v3.8, 2019-09-11
+# Author: Lemont_1991 <ltltmine@gmail.com>
+# Version: v3.8, 2019-10-23
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -3619,6 +3619,28 @@ Function UnpinTaskbarIcons {
 
 ##########
 #endregion Unpinning
+##########
+
+
+
+##########
+#region UWP
+##########
+
+# Disable Loopback
+Function DisableLoopback{
+	Write-Output "Disabling Loopback..."
+	CheckNetIsolation LoopbackExempt –c
+}
+
+# Enable Loopback
+Function EnableLoopback{
+	Write-Output "Enabling Loopback..."
+	Get-AppxPackage | select-object -ExpandProperty PackageFamilyName | ForEach-Object -Process {CheckNetIsolation LoopbackExempt –a –n=$_} | Out-Null
+}
+
+##########
+#endregion UWP
 ##########
 
 
