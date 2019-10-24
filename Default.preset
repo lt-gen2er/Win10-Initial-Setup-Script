@@ -187,8 +187,8 @@ DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
-EnableOneDrive                  # DisableOneDrive
-InstallOneDrive                 # UninstallOneDrive
+DisableOneDrive                 # EnableOneDrive
+UninstallOneDrive               # InstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # UninstallWindowsStore         # InstallWindowsStore
@@ -223,7 +223,7 @@ UninstallFaxAndScan             # InstallFaxAndScan
 # EnableAudio                   # DisableAudio
 
 ### Unpinning ###
-UnpinStartMenuTiles
+# UnpinStartMenuTiles
 # UnpinTaskbarIcons
 
 ### UWP Loopback ###
