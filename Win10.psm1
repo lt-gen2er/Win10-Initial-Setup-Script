@@ -2904,7 +2904,7 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.NetworkSpeedTest" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.OfficeLens" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.Office.OneNote" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.Office.OneNote" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Office.Sway" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.OneConnect" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.People" | Remove-AppxPackage
