@@ -18,7 +18,7 @@ DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
 EnableBackgroundApps            # DisableBackgroundApps
 # DisableSensors                # EnableSensors
-DisableLocation                 # EnableLocation
+EnableLocation                  # DisableLocation
 EnableMapUpdates                # DisableMapUpdates
 DisableFeedback                 # EnableFeedback
 DisableTailoredExperiences      # EnableTailoredExperiences
