@@ -19,7 +19,7 @@ DisableActivityHistory          # EnableActivityHistory
 EnableBackgroundApps            # DisableBackgroundApps
 # DisableSensors                # EnableSensors
 DisableLocation                 # EnableLocation
-DisableMapUpdates               # EnableMapUpdates
+EnableMapUpdates                # DisableMapUpdates
 DisableFeedback                 # EnableFeedback
 DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID
