@@ -2,7 +2,7 @@
 # Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
 # Author: Disassembler <disassembler@dasm.cz>
 # Modifier：Lemont_1991 <ltltmine@gmail.com>
-# Version: v3.8, 2019-09-11
+# Version: v3.8-LT, 2019-09-25
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -105,11 +105,11 @@ EnableNTFSLongPaths             # DisableNTFSLongPaths
 
 ### UI Tweaks ###
 EnableActionCenter              # DisableActionCenter
-DisableLockScreen               # EnableLockScreen
+EnableLockScreen                # DisableLockScreen
 # DisableLockScreenRS1          # EnableLockScreenRS1
 HideNetworkFromLockScreen       # ShowNetworkOnLockScreen
 HideShutdownFromLockScreen      # ShowShutdownOnLockScreen
-DisableLockScreenBlur           # EnableLockScreenBlur
+EnableLockScreenBlur            # DisableLockScreenBlur
 # DisableAeroShake              # EnableAeroShake
 DisableAccessibilityKeys        # EnableAccessibilityKeys
 ShowTaskManagerDetails          # HideTaskManagerDetails
@@ -122,11 +122,11 @@ SetTaskbarCombineNever          # SetTaskbarCombineWhenFull     # SetTaskbarComb
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
 ShowTrayIcons                   # HideTrayIcons
 # ShowSecondsInTaskbar          # HideSecondsFromTaskbar
-DisableSearchAppInStore         # EnableSearchAppInStore
-DisableNewAppPrompt             # EnableNewAppPrompt
+EnableSearchAppInStore          # DisableSearchAppInStore
+EnableNewAppPrompt              # DisableNewAppPrompt
 HideRecentlyAddedApps           # ShowRecentlyAddedApps
 HideMostUsedApps                # ShowMostUsedApps
-SetControlPanelSmallIcons       # SetControlPanelLargeIcons     # SetControlPanelCategories
+SetControlPanelLargeIcons       # SetControlPanelSmallIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 HideShortcutArrow               # ShowShortcutArrow
 SetVisualFXAppearance           # SetVisualFXPerformance
@@ -166,34 +166,34 @@ HideControlPanelFromDesktop     # ShowControlPanelOnDesktop
 HideNetworkFromDesktop          # ShowNetworkOnDesktop
 HideBuildNumberFromDesktop      # ShowBuildNumberOnDesktop
 ShowDesktopInThisPC             # HideDesktopFromThisPC
-# HideDesktopFromExplorer       # ShowDesktopInExplorer
+ShowDesktopInExplorer           # HideDesktopFromExplorer
 ShowDocumentsInThisPC           # HideDocumentsFromThisPC
-# HideDocumentsFromExplorer     # ShowDocumentsInExplorer
+ShowDocumentsInExplorer         # HideDocumentsFromExplorer
 ShowDownloadsInThisPC           # HideDownloadsFromThisPC
-# HideDownloadsFromExplorer     # ShowDownloadsInExplorer
+ShowDownloadsInExplorer         # HideDownloadsFromExplorer
 ShowMusicInThisPC               # HideMusicFromThisPC
-# HideMusicFromExplorer         # ShowMusicInExplorer
+ShowMusicInExplorer             # HideMusicFromExplorer
 ShowPicturesInThisPC            # HidePicturesFromThisPC
-# HidePicturesFromExplorer      # ShowPicturesInExplorer
+ShowPicturesInExplorer          # HidePicturesFromExplorer
 ShowVideosInThisPC              # HideVideosFromThisPC
-# HideVideosFromExplorer        # ShowVideosInExplorer
+ShowVideosInExplorer            # HideVideosFromExplorer
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
-# Hide3DObjectsFromExplorer     # Show3DObjectsInExplorer
-# HideIncludeInLibraryMenu      # ShowIncludeInLibraryMenu
-# HideGiveAccessToMenu          # ShowGiveAccessToMenu
-# HideShareMenu                 # ShowShareMenu
-# DisableThumbnails             # EnableThumbnails
+Hide3DObjectsFromExplorer       # Show3DObjectsInExplorer
+HideIncludeInLibraryMenu        # ShowIncludeInLibraryMenu
+HideGiveAccessToMenu            # ShowGiveAccessToMenu
+ShowShareMenu                   # HideShareMenu
+DisableThumbnails               # EnableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
-DisableOneDrive                 # EnableOneDrive
-UninstallOneDrive               # InstallOneDrive
+EnableOneDrive                  # DisableOneDrive
+InstallOneDrive                 # UninstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
-# UninstallWindowsStore         # InstallWindowsStore
-DisableXboxFeatures             # EnableXboxFeatures
-DisableFullscreenOptims         # EnableFullscreenOptims
+InstallWindowsStore             # UninstallWindowsStore
+EnableXboxFeatures              # DisableXboxFeatures
+EnableFullscreenOptims          # DisableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
 DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
