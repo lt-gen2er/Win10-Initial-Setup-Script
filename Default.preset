@@ -29,7 +29,7 @@ DisableCortana                  # EnableCortana
 # DisableCamera                 # EnableCamera
 # DisableMicrophone             # EnableMicrophone
 DisableErrorReporting           # EnableErrorReporting
-SetP2PUpdateDisable             # SetP2PUpdateLocal             # SetP2PUpdateInternet
+SetP2PUpdateInternet            # SetP2PUpdateLocal             # SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 DisableClearRecentFiles         # EnableClearRecentFiles
