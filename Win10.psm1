@@ -1,7 +1,7 @@
 ##########
 # Win 10 / Server 2016 / Server 2019 Initial Setup Script - Tweak library
 # Author: Lemont_1991 <ltltmine@gmail.com>
-# Version: v3.8, 2019-10-23
+# Version: v3.8-LT, 2019-10-25
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -2903,29 +2903,29 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.MoCamera" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MSPaint" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.NetworkSpeedTest" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.OfficeLens" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.OfficeLens" | Remove-AppxPackage
 #	Get-AppxPackage "Microsoft.Office.OneNote" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Office.Sway" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.OneConnect" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.People" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Print3D" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Reader" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.RemoteDesktop" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.RemoteDesktop" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.SkypeApp" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Todos" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Wallet" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WebMediaExtensions" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Whiteboard" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
-	Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
+#	Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsFeedbackHub" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsPhone" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.Windows.Photos" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.Windows.Photos" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsReadingList" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsScan" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.WindowsSoundRecorder" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.WindowsSoundRecorder" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WinJS.1.0" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WinJS.2.0" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.YourPhone" | Remove-AppxPackage
