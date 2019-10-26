@@ -182,7 +182,7 @@ Hide3DObjectsFromExplorer       # Show3DObjectsInExplorer
 HideIncludeInLibraryMenu        # ShowIncludeInLibraryMenu
 HideGiveAccessToMenu            # ShowGiveAccessToMenu
 ShowShareMenu                   # HideShareMenu
-DisableThumbnails               # EnableThumbnails
+EnableThumbnails                # DisableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
