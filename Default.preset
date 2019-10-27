@@ -62,7 +62,7 @@ SetUnknownNetworksPublic        # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
 DisableHomeGroups               # EnableHomeGroups
 DisableSMB1                     # EnableSMB1
-DisableSMBServer              # EnableSMBServer
+EnableSMBServer                 # DisableSMBServer
 # DisableNetBIOS                # EnableNetBIOS
 # DisableLLMNR                  # EnableLLMNR
 # DisableLLDP                   # EnableLLDP
@@ -205,7 +205,7 @@ UninstallInternetExplorer       # InstallInternetExplorer
 UninstallWorkFolders            # InstallWorkFolders
 UninstallPowerShellV2           # InstallPowerShellV2
 UninstallLinuxSubsystem         # InstallLinuxSubsystem
-UninstallHyperV                 # InstallHyperV
+InstallHyperV                   # UninstallHyperV
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
