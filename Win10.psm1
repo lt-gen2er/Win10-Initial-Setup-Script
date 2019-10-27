@@ -1297,6 +1297,7 @@ Function EnableAutorun {
 Function DisableRestorePoints {
 	Write-Output "Disabling System Restore for system drive..."
 	Disable-ComputerRestore -Drive "$env:SYSTEMDRIVE"
+	vssadmin Delete Shadows /For=$env:SYSTEMDRIVE /Quiet
 }
 
 # Enable System Restore for system drive - Not applicable to Server
@@ -1305,6 +1306,7 @@ Function DisableRestorePoints {
 Function EnableRestorePoints {
 	Write-Output "Enabling System Restore for system drive..."
 	Enable-ComputerRestore -Drive "$env:SYSTEMDRIVE"
+	vssadmin Resize ShadowStorage /On=$env:SYSTEMDRIVE /For=$env:SYSTEMDRIVE /MaxSize=10GB
 }
 
 # Enable Storage Sense - automatic disk cleanup - Applicable since 1703
