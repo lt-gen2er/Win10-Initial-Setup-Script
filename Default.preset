@@ -17,7 +17,7 @@ DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
 EnableBackgroundApps            # DisableBackgroundApps
-# DisableSensors                # EnableSensors
+EnableSensors                   # DisableSensors
 EnableLocation                  # DisableLocation
 EnableMapUpdates                # DisableMapUpdates
 DisableFeedback                 # EnableFeedback
@@ -25,9 +25,9 @@ DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
 DisableCortana                  # EnableCortana
-# DisableBiometrics             # EnableBiometrics
-# DisableCamera                 # EnableCamera
-# DisableMicrophone             # EnableMicrophone
+EnableBiometrics                # DisableBiometrics
+EnableCamera                    # DisableCamera
+EnableMicrophone                # DisableMicrophone
 DisableErrorReporting           # EnableErrorReporting
 SetP2PUpdateLocal               # SetP2PUpdateInternet             # SetP2PUpdateDisable
 DisableDiagTrack                # EnableDiagTrack
@@ -39,15 +39,15 @@ DisableRecentFiles              # EnableRecentFiles
 SetUACLow                       # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
-# DisableFirewall               # EnableFirewall
-# HideDefenderTrayIcon          # ShowDefenderTrayIcon
-# DisableDefender               # EnableDefender
-# DisableDefenderCloud          # EnableDefenderCloud
-# EnableCtrldFolderAccess       # DisableCtrldFolderAccess
-# EnableCIMemoryIntegrity       # DisableCIMemoryIntegrity
-# EnableDefenderAppGuard        # DisableDefenderAppGuard
+EnableFirewall                  # DisableFirewall
+ShowDefenderTrayIcon            # HideDefenderTrayIcon
+EnableDefender                  # DisableDefender
+EnableDefenderCloud             # DisableDefenderCloud
+EnableCtrldFolderAccess         # DisableCtrldFolderAccess
+EnableCIMemoryIntegrity         # DisableCIMemoryIntegrity
+EnableDefenderAppGuard          # DisableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
-# DisableDownloadBlocking       # EnableDownloadBlocking
+DisableDownloadBlocking         # EnableDownloadBlocking
 DisableScriptHost               # EnableScriptHost
 EnableDotNetStrongCrypto        # DisableDotNetStrongCrypto
 # EnableMeltdownCompatFlag      # DisableMeltdownCompatFlag
@@ -57,12 +57,12 @@ EnableF8BootMenu                # DisableF8BootMenu
 SetDEPOptOut                    # SetDEPOptIn
 
 ### Network Tweaks ###
-SetCurrentNetworkPrivate        # SetCurrentNetworkPublic
-# SetUnknownNetworksPrivate     # SetUnknownNetworksPublic
+SetCurrentNetworkPublic         # SetCurrentNetworkPrivate
+SetUnknownNetworksPublic        # SetUnknownNetworksPrivate
 # DisableNetDevicesAutoInst     # EnableNetDevicesAutoInst
-# DisableHomeGroups             # EnableHomeGroups
-# DisableSMB1                   # EnableSMB1
-# DisableSMBServer              # EnableSMBServer
+DisableHomeGroups               # EnableHomeGroups
+DisableSMB1                     # EnableSMB1
+DisableSMBServer              # EnableSMBServer
 # DisableNetBIOS                # EnableNetBIOS
 # DisableLLMNR                  # EnableLLMNR
 # DisableLLDP                   # EnableLLDP
@@ -77,7 +77,7 @@ DisableRemoteAssistance         # EnableRemoteAssistance
 # EnableRemoteDesktop           # DisableRemoteDesktop
 
 ### Service Tweaks ###
-DisableUpdateMSRT               # EnableUpdateMSRT
+EnableUpdateMSRT                # DisableUpdateMSRT
 EnableUpdateDriver              # DisableUpdateDriver
 EnableUpdateMSProducts          # DisableUpdateMSProducts
 EnableUpdateAutoDownload        # DisableUpdateAutoDownload
@@ -91,16 +91,16 @@ DisableRestorePoints            # EnableRestorePoints
 DisableStorageSense             # EnableStorageSense
 DisableDefragmentation          # EnableDefragmentation
 DisableSuperfetch               # EnableSuperfetch
-DisableIndexing                 # EnableIndexing
+EnableIndexing                  # DisableIndexing
 DisableSwapFile                 # EnableSwapFile
 # DisableRecycleBin             # EnableRecycleBin
 EnableNTFSLongPaths             # DisableNTFSLongPaths
 # DisableNTFSLastAccess         # EnableNTFSLastAccess
 # SetBIOSTimeUTC                # SetBIOSTimeLocal
-# EnableHibernation             # DisableHibernation
+DisableHibernation              # EnableHibernation
 # DisableSleepButton            # EnableSleepButton
 # DisableSleepTimeout           # EnableSleepTimeout
-# DisableFastStartup            # EnableFastStartup
+DisableFastStartup              # EnableFastStartup
 # DisableAutoRebootOnCrash      # EnableAutoRebootOnCrash
 
 ### UI Tweaks ###
