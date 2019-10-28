@@ -153,7 +153,7 @@ HideNavPaneAllFolders           # ShowNavPaneAllFolders
 EnableFldrSeparateProcess       # DisableFldrSeparateProcess
 DisableRestoreFldrWindows       # EnableRestoreFldrWindows
 ShowEncCompFilesColor           # HideEncCompFilesColor
-# DisableSharingWizard          # EnableSharingWizard
+DisableSharingWizard            # EnableSharingWizard
 # HideSelectCheckboxes          # ShowSelectCheckboxes
 HideSyncNotifications           # ShowSyncNotifications
 HideRecentShortcuts             # ShowRecentShortcuts
