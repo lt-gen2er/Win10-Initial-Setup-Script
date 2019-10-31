@@ -187,12 +187,12 @@ DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
-EnableOneDrive                # DisableOneDrive
+EnableOneDrive                  # DisableOneDrive
 # InstallOneDrive               # UninstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # InstallWindowsStore           # UninstallWindowsStore
-EnableXboxFeatures            # DisableXboxFeatures
+EnableXboxFeatures              # DisableXboxFeatures
 EnableFullscreenOptims          # DisableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
