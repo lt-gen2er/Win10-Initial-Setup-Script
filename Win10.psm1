@@ -2899,7 +2899,7 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.MicrosoftOfficeHub" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftPowerBIForWindows" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MicrosoftSolitaireCollection" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.MicrosoftStickyNotes" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.MicrosoftStickyNotes" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MinecraftUWP" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MixedReality.Portal" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.MoCamera" | Remove-AppxPackage
@@ -2917,7 +2917,7 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.Todos" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.Wallet" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WebMediaExtensions" | Remove-AppxPackage
-	Get-AppxPackage "Microsoft.Whiteboard" | Remove-AppxPackage
+#	Get-AppxPackage "Microsoft.Whiteboard" | Remove-AppxPackage
 #	Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
 #	Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
 #	Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
