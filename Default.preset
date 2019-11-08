@@ -204,7 +204,7 @@ UninstallMediaPlayer            # InstallMediaPlayer
 UninstallInternetExplorer       # InstallInternetExplorer
 UninstallWorkFolders            # InstallWorkFolders
 UninstallPowerShellV2           # InstallPowerShellV2
-UninstallLinuxSubsystem         # InstallLinuxSubsystem
+InstallLinuxSubsystem           # UninstallLinuxSubsystem
 InstallHyperV                   # UninstallHyperV
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
