@@ -10,7 +10,7 @@
 RequireAdmin
 
 ### Privacy Tweaks ###
-DisableTelemetry                # EnableTelemetry
+EnableTelemetry                 # DisableTelemetry
 DisableWiFiSense                # EnableWiFiSense
 DisableSmartScreen              # EnableSmartScreen
 DisableWebSearch                # EnableWebSearch
@@ -20,7 +20,7 @@ EnableBackgroundApps            # DisableBackgroundApps
 EnableSensors                   # DisableSensors
 EnableLocation                  # DisableLocation
 EnableMapUpdates                # DisableMapUpdates
-DisableFeedback                 # EnableFeedback
+EnableFeedback                  # DisableFeedback
 DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
@@ -30,7 +30,7 @@ EnableCamera                    # DisableCamera
 EnableMicrophone                # DisableMicrophone
 DisableErrorReporting           # EnableErrorReporting
 SetP2PUpdateLocal               # SetP2PUpdateInternet             # SetP2PUpdateDisable
-DisableDiagTrack                # EnableDiagTrack
+EnableDiagTrack                 # DisableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 DisableClearRecentFiles         # EnableClearRecentFiles
 DisableRecentFiles              # EnableRecentFiles
