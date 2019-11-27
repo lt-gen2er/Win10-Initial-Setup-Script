@@ -2,7 +2,7 @@
 # Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
 # Author: Disassembler <disassembler@dasm.cz>
 # Modifier：Lemont_1991 <ltltmine@gmail.com>
-# Version: v3.8-LT, 2019-09-25
+# Version: v3.8-LT, 2019-11-27
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -206,6 +206,8 @@ UninstallWorkFolders            # InstallWorkFolders
 UninstallPowerShellV2           # InstallPowerShellV2
 InstallLinuxSubsystem           # UninstallLinuxSubsystem
 InstallHyperV                   # UninstallHyperV
+# UninstallSSHClient            # InstallSSHClient
+# InstallSSHServer              # UninstallSSHServer
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
