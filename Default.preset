@@ -2,7 +2,7 @@
 # Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
 # Author: Disassembler <disassembler@dasm.cz>
 # Modifier：Lemont_1991 <ltltmine@gmail.com>
-# Version: v3.8-LT, 2019-11-27
+# Version: v3.8-LT, 2020-03-06
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -200,12 +200,13 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 DisableIEFirstRun               # EnableIEFirstRun
 DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
-UninstallMediaPlayer            # InstallMediaPlayer
-UninstallInternetExplorer       # InstallInternetExplorer
-UninstallWorkFolders            # InstallWorkFolders
-UninstallPowerShellV2           # InstallPowerShellV2
-InstallLinuxSubsystem           # UninstallLinuxSubsystem
-InstallHyperV                   # UninstallHyperV
+# EnableDeveloperMode           # DisableDeveloperMode
+# UninstallMediaPlayer          # InstallMediaPlayer
+# UninstallInternetExplorer     # InstallInternetExplorer
+# UninstallWorkFolders          # InstallWorkFolders
+# UninstallPowerShellV2         # InstallPowerShellV2
+# InstallLinuxSubsystem         # UninstallLinuxSubsystem
+# InstallHyperV                 # UninstallHyperV
 # UninstallSSHClient            # InstallSSHClient
 # InstallSSHServer              # UninstallSSHServer
 # InstallNET23                  # UninstallNET23
