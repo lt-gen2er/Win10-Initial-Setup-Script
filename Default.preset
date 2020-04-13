@@ -2,7 +2,7 @@
 # Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
 # Author: Disassembler <disassembler@dasm.cz>
 # Modifier：Lemont_1991 <ltltmine@gmail.com>
-# Version: v3.8-LT, 2020-03-06
+# Version: v3.9-LT, 2020-04-12
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -181,17 +181,17 @@ Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 Hide3DObjectsFromExplorer       # Show3DObjectsInExplorer
 HideIncludeInLibraryMenu        # ShowIncludeInLibraryMenu
 HideGiveAccessToMenu            # ShowGiveAccessToMenu
-ShowShareMenu                   # HideShareMenu
+HideShareMenu                   # ShowShareMenu
 EnableThumbnails                # DisableThumbnails
 DisableThumbnailCache           # EnableThumbnailCache
 DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
 EnableOneDrive                  # DisableOneDrive
-# InstallOneDrive               # UninstallOneDrive
+InstallOneDrive               # UninstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
-# InstallWindowsStore           # UninstallWindowsStore
+InstallWindowsStore             # UninstallWindowsStore
 EnableXboxFeatures              # DisableXboxFeatures
 EnableFullscreenOptims          # DisableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
@@ -202,11 +202,14 @@ DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
 # EnableDeveloperMode           # DisableDeveloperMode
 # UninstallMediaPlayer          # InstallMediaPlayer
-# UninstallInternetExplorer     # InstallInternetExplorer
+UninstallInternetExplorer       # InstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
+# UninstallHelloFace            # InstallHelloFace
+# UninstallMathRecognizer       # InstallMathRecognizer
 # UninstallPowerShellV2         # InstallPowerShellV2
-# InstallLinuxSubsystem         # UninstallLinuxSubsystem
-# InstallHyperV                 # UninstallHyperV
+# UninstallPowerShellISE        # InstallPowerShellISE
+InstallLinuxSubsystem           # UninstallLinuxSubsystem
+InstallHyperV                   # UninstallHyperV
 # UninstallSSHClient            # InstallSSHClient
 # InstallSSHServer              # UninstallSSHServer
 # InstallNET23                  # UninstallNET23
