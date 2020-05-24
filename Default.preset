@@ -2,7 +2,7 @@
 # Win 10 / Server 2016 / Server 2019 Initial Setup Script - Default preset
 # Author: Disassembler <disassembler@dasm.cz>
 # Modifier：Lemont_1991 <ltltmine@gmail.com>
-# Version: v3.9-LT, 2020-04-12
+# Version: v3.9-LT, 2020-05-24
 # Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 ##########
 
@@ -39,12 +39,12 @@ DisableRecentFiles              # EnableRecentFiles
 SetUACLow                       # SetUACHigh
 # EnableSharingMappedDrives     # DisableSharingMappedDrives
 DisableAdminShares              # EnableAdminShares
-EnableFirewall                  # DisableFirewall
-ShowDefenderTrayIcon            # HideDefenderTrayIcon
-EnableDefender                  # DisableDefender
-EnableDefenderCloud             # DisableDefenderCloud
+DisableFirewall                 # EnableFirewall
+HideDefenderTrayIcon            # ShowDefenderTrayIcon
+DisableDefender                 # EnableDefender
+DisableDefenderCloud            # EnableDefenderCloud
 DisableCtrldFolderAccess        # EnableCtrldFolderAccess
-EnableCIMemoryIntegrity         # DisableCIMemoryIntegrity
+DisableCIMemoryIntegrity        # EnableCIMemoryIntegrity
 DisableDefenderAppGuard         # EnableDefenderAppGuard
 HideAccountProtectionWarn       # ShowAccountProtectionWarn
 DisableDownloadBlocking         # EnableDownloadBlocking
@@ -83,6 +83,7 @@ EnableUpdateMSProducts          # DisableUpdateMSProducts
 EnableUpdateAutoDownload        # DisableUpdateAutoDownload
 DisableUpdateRestart            # EnableUpdateRestart
 DisableMaintenanceWakeUp        # EnableMaintenanceWakeUp
+# DisableAutoRestartSignOn      # EnableAutoRestartSignOn
 DisableSharedExperiences        # EnableSharedExperiences
 EnableClipboardHistory          # DisableClipboardHistory
 DisableAutoplay                 # EnableAutoplay
@@ -91,7 +92,7 @@ DisableRestorePoints            # EnableRestorePoints
 DisableStorageSense             # EnableStorageSense
 DisableDefragmentation          # EnableDefragmentation
 DisableSuperfetch               # EnableSuperfetch
-EnableIndexing                  # DisableIndexing
+DisableIndexing                 # EnableIndexing
 DisableSwapFile                 # EnableSwapFile
 # DisableRecycleBin             # EnableRecycleBin
 EnableNTFSLongPaths             # DisableNTFSLongPaths
@@ -126,12 +127,14 @@ EnableSearchAppInStore          # DisableSearchAppInStore
 EnableNewAppPrompt              # DisableNewAppPrompt
 HideRecentlyAddedApps           # ShowRecentlyAddedApps
 HideMostUsedApps                # ShowMostUsedApps
+# SetWinXMenuPowerShell         # SetWinXMenuCmd
 SetControlPanelLargeIcons       # SetControlPanelSmallIcons     # SetControlPanelCategories
 DisableShortcutInName           # EnableShortcutInName
 HideShortcutArrow               # ShowShortcutArrow
 SetVisualFXAppearance           # SetVisualFXPerformance
 EnableTitleBarColor             # DisableTitleBarColor
-EnableDarkTheme                 # DisableDarkTheme
+SetAppsDarkMode                 # SetAppsLightMode
+# SetSystemLightMode            # SetSystemDarkMode
 RemoveENKeyboard                # AddENKeyboard
 # EnableNumlock                 # DisableNumlock
 EnableEnhPointerPrecision       # DisableEnhPointerPrecision
@@ -164,6 +167,7 @@ HideThisPCFromDesktop           # ShowThisPCOnDesktop
 HideUserFolderFromDesktop       # ShowUserFolderOnDesktop
 HideControlPanelFromDesktop     # ShowControlPanelOnDesktop
 HideNetworkFromDesktop          # ShowNetworkOnDesktop
+# HideDesktopIcons              # ShowDesktopIcons
 HideBuildNumberFromDesktop      # ShowBuildNumberOnDesktop
 ShowDesktopInThisPC             # HideDesktopFromThisPC
 ShowDesktopInExplorer           # HideDesktopFromExplorer
@@ -188,7 +192,7 @@ DisableThumbsDBOnNetwork        # EnableThumbsDBOnNetwork
 
 ### Application Tweaks ###
 EnableOneDrive                  # DisableOneDrive
-# InstallOneDrive             # UninstallOneDrive
+InstallOneDrive                 # UninstallOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 InstallWindowsStore             # UninstallWindowsStore
@@ -200,9 +204,9 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 DisableIEFirstRun               # EnableIEFirstRun
 DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
-# EnableDeveloperMode           # DisableDeveloperMode
-# UninstallMediaPlayer          # InstallMediaPlayer
-#UninstallInternetExplorer      # InstallInternetExplorer
+EnableDeveloperMode             # DisableDeveloperMode
+InstallMediaPlayer              # UninstallMediaPlayer
+InstallInternetExplorer         # UninstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallHelloFace            # InstallHelloFace
 # UninstallMathRecognizer       # InstallMathRecognizer
@@ -212,6 +216,7 @@ InstallLinuxSubsystem           # UninstallLinuxSubsystem
 InstallHyperV                   # UninstallHyperV
 # UninstallSSHClient            # InstallSSHClient
 # InstallSSHServer              # UninstallSSHServer
+# InstallTelnetClient           # UninstallTelnetClient
 # InstallNET23                  # UninstallNET23
 SetPhotoViewerAssociation       # UnsetPhotoViewerAssociation
 AddPhotoViewerOpenWith          # RemovePhotoViewerOpenWith
