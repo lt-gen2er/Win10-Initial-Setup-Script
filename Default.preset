@@ -16,10 +16,10 @@ DisableSmartScreen              # EnableSmartScreen
 DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
-EnableBackgroundApps            # DisableBackgroundApps
+DisableBackgroundApps           # EnableBackgroundApps
 EnableSensors                   # DisableSensors
-EnableLocation                  # DisableLocation
-EnableMapUpdates                # DisableMapUpdates
+DisableLocation                 # EnableLocation
+DisableMapUpdates               # EnableMapUpdates
 EnableFeedback                  # DisableFeedback
 DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID

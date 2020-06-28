@@ -2981,11 +2981,11 @@ Function UninstallMsftBloat {
 	Get-AppxPackage "Microsoft.Wallet" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WebMediaExtensions" | Remove-AppxPackage
 #	Get-AppxPackage "Microsoft.Whiteboard" | Remove-AppxPackage
-#	Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
-#	Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
-#	Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
+	Get-AppxPackage "Microsoft.WindowsAlarms" | Remove-AppxPackage
+	Get-AppxPackage "Microsoft.WindowsCamera" | Remove-AppxPackage
+	Get-AppxPackage "microsoft.windowscommunicationsapps" | Remove-AppxPackage
 #	Get-AppxPackage "Microsoft.WindowsFeedbackHub" | Remove-AppxPackage
-#	Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
+	Get-AppxPackage "Microsoft.WindowsMaps" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsPhone" | Remove-AppxPackage
 #	Get-AppxPackage "Microsoft.Windows.Photos" | Remove-AppxPackage
 	Get-AppxPackage "Microsoft.WindowsReadingList" | Remove-AppxPackage
