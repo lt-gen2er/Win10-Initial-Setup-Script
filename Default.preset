@@ -196,7 +196,7 @@ EnableOneDrive                  # DisableOneDrive
 UninstallMsftBloat              # InstallMsftBloat
 UninstallThirdPartyBloat        # InstallThirdPartyBloat
 # InstallWindowsStore           # UninstallWindowsStore
-EnableXboxFeatures              # DisableXboxFeatures
+DisableXboxFeatures             # EnableXboxFeatures
 EnableFullscreenOptims          # DisableFullscreenOptims
 DisableAdobeFlash               # EnableAdobeFlash
 DisableEdgePreload              # EnableEdgePreload
@@ -205,7 +205,7 @@ DisableIEFirstRun               # EnableIEFirstRun
 DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
 EnableDeveloperMode             # DisableDeveloperMode
-InstallMediaPlayer              # UninstallMediaPlayer
+UninstallMediaPlayer            # InstallMediaPlayer
 InstallInternetExplorer         # UninstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallHelloFace            # InstallHelloFace
