@@ -3072,7 +3072,7 @@ Function InstallMsftBloat {
 function UninstallThirdPartyBloat {
 	Write-Output "Uninstalling default third party applications..."
 	Get-AppxPackage "2414FC7A.Viber" | Remove-AppxPackage
-	Get-AppxPackage "41038Axilesoft.ACGMediaPlayer" | Remove-AppxPackage
+#	Get-AppxPackage "41038Axilesoft.ACGMediaPlayer" | Remove-AppxPackage
 	Get-AppxPackage "46928bounde.EclipseManager" | Remove-AppxPackage
 #	Get-AppxPackage "4DF9E0F8.Netflix" | Remove-AppxPackage
 	Get-AppxPackage "64885BlueEdge.OneCalendar" | Remove-AppxPackage
