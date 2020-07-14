@@ -206,7 +206,7 @@ DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
 EnableDeveloperMode             # DisableDeveloperMode
 UninstallMediaPlayer            # InstallMediaPlayer
-UninstallInternetExplorer       # InstallInternetExplorer
+InstallInternetExplorer         # UninstallInternetExplorer
 # UninstallWorkFolders          # InstallWorkFolders
 # UninstallHelloFace            # InstallHelloFace
 # UninstallMathRecognizer       # InstallMathRecognizer
