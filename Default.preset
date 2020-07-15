@@ -11,12 +11,12 @@ RequireAdmin
 
 ### Privacy Tweaks ###
 EnableTelemetry                 # DisableTelemetry
+DisableCortana                  # EnableCortana
 DisableWiFiSense                # EnableWiFiSense
 DisableSmartScreen              # EnableSmartScreen
 DisableWebSearch                # EnableWebSearch
 DisableAppSuggestions           # EnableAppSuggestions
 DisableActivityHistory          # EnableActivityHistory
-DisableBackgroundApps           # EnableBackgroundApps
 EnableSensors                   # DisableSensors
 DisableLocation                 # EnableLocation
 DisableMapUpdates               # EnableMapUpdates
@@ -24,7 +24,6 @@ EnableFeedback                  # DisableFeedback
 DisableTailoredExperiences      # EnableTailoredExperiences
 DisableAdvertisingID            # EnableAdvertisingID
 DisableWebLangList              # EnableWebLangList
-DisableCortana                  # EnableCortana
 EnableBiometrics                # DisableBiometrics
 EnableCamera                    # DisableCamera
 EnableMicrophone                # DisableMicrophone
@@ -34,6 +33,24 @@ EnableDiagTrack                 # DisableDiagTrack
 DisableWAPPush                  # EnableWAPPush
 DisableClearRecentFiles         # EnableClearRecentFiles
 DisableRecentFiles              # EnableRecentFiles
+
+### UWP Privacy Tweaks ###
+DisableUWPBackgroundApps        # EnableUWPBackgroundApps
+# DisableUWPVoiceActivation     # EnableUWPVoiceActivation
+# DisableUWPNotifications       # EnableUWPNotifications
+# DisableUWPAccountInfo         # EnableUWPAccountInfo
+# DisableUWPContacts            # EnableUWPContacts
+# DisableUWPCalendar            # EnableUWPCalendar
+# DisableUWPPhoneCalls          # EnableUWPPhoneCalls
+# DisableUWPCallHistory         # EnableUWPCallHistory
+# DisableUWPEmail               # EnableUWPEmail
+# DisableUWPTasks               # EnableUWPTasks
+# DisableUWPMessaging           # EnableUWPMessaging
+# DisableUWPRadios              # EnableUWPRadios
+# DisableUWPOtherDevices        # EnableUWPOtherDevices
+# DisableUWPDiagInfo            # EnableUWPDiagInfo
+# DisableUWPFileSystem          # EnableUWPFileSystem
+# DisableUWPSwapFile            # EnableUWPSwapFile
 
 ### Security Tweaks ###
 SetUACLow                       # SetUACHigh
@@ -93,7 +110,6 @@ DisableStorageSense             # EnableStorageSense
 DisableDefragmentation          # EnableDefragmentation
 DisableSuperfetch               # EnableSuperfetch
 DisableIndexing                 # EnableIndexing
-DisableSwapFile                 # EnableSwapFile
 # DisableRecycleBin             # EnableRecycleBin
 EnableNTFSLongPaths             # DisableNTFSLongPaths
 # DisableNTFSLastAccess         # EnableNTFSLastAccess
@@ -153,6 +169,7 @@ HideHiddenFiles                 # ShowHiddenFiles
 # ShowFolderMergeConflicts      # HideFolderMergeConflicts
 DisableNavPaneExpand            # EnableNavPaneExpand
 HideNavPaneAllFolders           # ShowNavPaneAllFolders
+HideNavPaneLibraries            # ShowNavPaneLibraries
 EnableFldrSeparateProcess       # DisableFldrSeparateProcess
 DisableRestoreFldrWindows       # EnableRestoreFldrWindows
 ShowEncCompFilesColor           # HideEncCompFilesColor
@@ -183,6 +200,7 @@ ShowVideosInThisPC              # HideVideosFromThisPC
 ShowVideosInExplorer            # HideVideosFromExplorer
 Hide3DObjectsFromThisPC         # Show3DObjectsInThisPC
 Hide3DObjectsFromExplorer       # Show3DObjectsInExplorer
+ShowNetworkInExplorer           # HideNetworkFromExplorer
 HideIncludeInLibraryMenu        # ShowIncludeInLibraryMenu
 HideGiveAccessToMenu            # ShowGiveAccessToMenu
 HideShareMenu                   # ShowShareMenu
@@ -204,6 +222,7 @@ DisableEdgeShortcutCreation     # EnableEdgeShortcutCreation
 DisableIEFirstRun               # EnableIEFirstRun
 DisableFirstLogonAnimation      # EnableFirstLogonAnimation
 DisableMediaSharing             # EnableMediaSharing
+DisableMediaOnlineAccess        # EnableMediaOnlineAccess
 EnableDeveloperMode             # DisableDeveloperMode
 UninstallMediaPlayer            # InstallMediaPlayer
 InstallInternetExplorer         # UninstallInternetExplorer
