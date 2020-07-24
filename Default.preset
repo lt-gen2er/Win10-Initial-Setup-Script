@@ -139,8 +139,8 @@ SetTaskbarCombineNever          # SetTaskbarCombineWhenFull     # SetTaskbarComb
 HideTaskbarPeopleIcon           # ShowTaskbarPeopleIcon
 ShowTrayIcons                   # HideTrayIcons
 # ShowSecondsInTaskbar          # HideSecondsFromTaskbar
-EnableSearchAppInStore          # DisableSearchAppInStore
-EnableNewAppPrompt              # DisableNewAppPrompt
+DisableSearchAppInStore         # EnableSearchAppInStore
+DisableNewAppPrompt             # EnableNewAppPrompt
 HideRecentlyAddedApps           # ShowRecentlyAddedApps
 HideMostUsedApps                # ShowMostUsedApps
 # SetWinXMenuPowerShell         # SetWinXMenuCmd
@@ -151,7 +151,7 @@ SetVisualFXAppearance           # SetVisualFXPerformance
 EnableTitleBarColor             # DisableTitleBarColor
 SetAppsDarkMode                 # SetAppsLightMode
 # SetSystemLightMode            # SetSystemDarkMode
-RemoveENKeyboard                # AddENKeyboard
+AddENKeyboard                   # RemoveENKeyboard
 # EnableNumlock                 # DisableNumlock
 EnableEnhPointerPrecision       # DisableEnhPointerPrecision
 SetSoundSchemeNone              # SetSoundSchemeDefault
